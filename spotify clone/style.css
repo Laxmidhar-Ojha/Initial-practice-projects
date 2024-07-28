@@ -1,0 +1,323 @@
+body{
+    height:100vh;
+    padding:0;
+    margin:0;
+    display:flex;
+    background-color:black;
+    overflow:hidden;
+    color:white;
+}
+.sidebar{
+    background-color:black;
+    width:340px;
+    border-radius: 0.7rem;
+    margin-right: 0.3rem;
+    height:78%;
+}
+.maincontaint{
+ background-color: #232323  ;
+ flex: 1;
+ border-radius: 0.7rem;
+ overflow:auto;
+ scrollbar-color:grey #121212;
+ height:91%;
+ padding-left:1rem;;
+}
+.playbar{
+    background-color: black;
+    position:fixed;
+    bottom:0px;
+    height:72px;
+    width:100%;
+    display:flex;
+}
+.firsthalf{
+    background-color: #121212;
+    display:flex;
+    flex-direction: column;
+    height:112px;
+    justify-content: center;
+    padding:0.5rem 0.75rem;
+    border-radius: 0.7rem;
+}
+.option{
+    color:white;
+    opacity:0.7;
+    line-height:2.5rem;
+
+}
+.option:hover{
+    opacity:1;
+}
+.option i{
+    font-size:1.5rem;
+    margin-right:1.5rem;
+    margin-left: 1rem;
+}
+.option a{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.secondhalf{
+    background-color: #121212;
+    border-radius: 0.7rem;
+    height:100%;
+    margin-top: 0.3rem;
+}
+.library{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 0.75rem;
+    border-radius: 0.7rem;
+}
+.library .options{
+    color:white;
+    opacity:0.7;
+}
+.library .options:hover{
+    opacity:1;
+}
+.library .options img{
+    font-size:1.5rem;
+    margin-right:1.5rem;
+    margin-left: 1rem;
+    height: 1.5rem;
+}
+.library .options i{
+    font-size: 1.3rem;
+    margin-right:1rem;
+}
+.library .options a{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.create{
+    background-color:#232323;
+    height:6rem;
+    margin:1rem 0.5rem 1.5rem 0.5rem;
+    padding:1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-weight: 700;
+    border-radius: 0.7rem;
+}
+.create .secondline{
+    font-size: 0.93rem;
+    margin-top: 0.5rem;
+}
+.create button{
+    font-weight: 700;
+    border-radius: 2rem;
+    height: 2rem;
+    width:8rem;
+    margin-top: 1.5rem;
+}
+.nav{
+    position:sticky;
+    background-color: #232323;
+    top: 0;   
+}
+.firstnav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:4rem;
+}
+.firstnav .arrows{
+    margin-left: 0.5rem;
+}
+.firstnav .arrows i{
+    color:white;
+    opacity:0.7;
+    font-size: 1rem;
+    height:2rem;
+    width:2rem;
+    background-color: black;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2rem;
+    margin-right:0.5rem;
+}
+.firstnav .login{ 
+    margin-right: 0.25rem;
+}
+.firstnav button{
+    font-weight: 700;
+    border:2px solid black;
+    border-radius: 2rem;
+    height: 2rem;
+    width:10rem;
+    padding:0.25rem 1rem;
+    margin-right: 0.25rem;
+}
+#install{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+    height: 2rem;
+    width:9rem;
+    padding:0.25rem 1rem 0.25rem 0.5rem;
+}
+.firstnav .bell i{
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    margin-right:0.25rem;
+    font-size: 1rem;
+
+}
+.firstnav #user {
+    display:inline-block;
+    height:1.5rem;
+    width:1.5rem;
+    border: 0.25rem solid black;
+    border-radius: 50%;
+    background-color: violet;
+    color: white;
+    text-align: center;
+    line-height: 1.45rem;
+    margin-right:0.25rem;
+    font-size: 1rem;
+}
+.secondnav button{
+    padding:0.25rem 0.75rem;
+    background-color: #ffffff12;
+    border-radius:2rem;
+    border:0.1rem solid #ffffff12;
+    font-weight: 700;
+    color:white;
+    font-size: 1rem;
+    margin-left:0.5rem;
+}
+h2,h3,p {
+    color:white;
+    
+}
+.card{
+    width:200px;
+    border-radius: 0.7rem;
+    padding:0.5rem;
+}
+.card:hover{
+    background-color: #121212;
+}
+.card img{
+    width:100%;
+    border-radius:0.7rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navfotter{
+    display:flex;
+    flex-wrap: wrap;
+}
+.navfotter .details{
+    width:75%;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:3rem 3rem 3rem 3rem 3rem 3rem ;
+    align-items: center;
+    justify-items: center;
+    margin-top: 4rem;;
+}
+.navfotter .socialmedia
+{
+    flex:1;
+    margin-top: 4rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.navfotter .details .head{
+    font-size:1.2rem ;
+    font-weight: 500;
+
+}
+.navfotter .socialmedia i{ 
+    font-size: 1.5rem;
+    padding:1rem;
+    padding-top: 2rem;
+
+}
+hr{
+    border:2px solid #121212;
+    margin:1rem;
+}
+.toc{
+    display: flex;
+    padding-bottom: 5rem;
+}
+.toc .terms{
+    width:60%;
+    display:grid;
+    grid-template-columns:16% 16% 16% 16% 16% 20%;
+    grid-template-rows:3rem 3rem;
+    align-items: center;
+    padding-left: 1rem;
+    /* padding-bottom: 5rem; */
+}
+.toc .copyright{
+    flex:1;    
+}
+.terms .two{
+    grid-column:2/4;
+}
+.playbar .song{
+    width:30%;
+    height:100%;
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 0.5rem;
+}
+.songimg{
+    margin:0.3rem 0 0 0.3rem;
+}
+.songnm{
+    margin:1rem 0 0 1rem;
+}
+.plussymb{
+    margin:1.5rem 0 0 5rem;
+}
+.playbar .controls{
+    width:40%;
+}.controls .pause{
+    padding-left: 3rem;
+}
+.controls .pause img{
+    height:2rem;
+    width:2rem;
+    padding-left: 2rem;
+    margin-top: 0.2rem;
+}
+.controls .bar{
+    padding-left: 2.5rem;
+}
+.playbar .settings{
+    width:30%;
+}
+.settings i{
+    height: 2rem;
+    width: 2rem;
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    opacity:0.8;
+}
+.settings .icons{
+    margin-left: 5rem;;
+}
