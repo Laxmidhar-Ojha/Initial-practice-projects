@@ -1,0 +1,140 @@
+#one{
+    height: 100vh;
+    display: flex;
+    padding :0;
+    margin:0;
+    overflow: hidden;
+    background-color: #1da9cd;
+    color: white;
+}
+#nav{
+    height:4rem;
+    width :100%;
+    position: absolute;
+    top:4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+#nav #name{ 
+    margin-left: 8rem;
+}
+#nav #name #stick{
+    height: 9rem;
+    width: 2px;
+    background-color: black ;
+    color:black;
+    border-radius: 20px ;
+}
+#nav #left{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 8rem;
+}
+#nav #left span{
+    margin-left:8rem;
+}
+#side{
+    width:50%;
+        }
+#main{
+    width: 50%;
+    position:absolute;
+    right: 0;
+}
+#side #exp{
+    position: absolute;
+    top:30%;
+    left: 9%;
+}
+#side #exp #lg{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+#side #exp #part{
+    font-size:2rem ;
+    margin-bottom:1rem;
+}
+#side #exp button{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    height: 3rem;
+    width:12rem;
+}
+#main img{
+    position: absolute;
+     right: -15rem;
+     top:4rem;
+}
+#second{
+    height: 100vh;
+    padding :0;
+    margin:0;
+    overflow: hidden;
+    background-color: rgba(26,37,41,255);
+    color: white;
+}
+#second h1{
+    color:#1da9cd;
+    margin-left: 5rem;
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+#second h4{
+    margin-left: 5rem;
+    font-size: 1rem;
+    line-height:20px;
+    letter-spacing:1px;
+}
+#second #cards{
+    display: flex;
+    position: absolute;
+    bottom:-40rem;
+
+}
+#second .card{
+    height:18rem;
+    width: 20rem;
+    border-radius: 30px;
+    background-color: #263237;
+    margin-left: 150px;
+}
+#second .card img{
+    height: 6rem;
+    width: 8rem;
+    margin-top: 15px;
+}
+#second .card h3,h5{
+    margin-left: 15px;
+}
+#four{
+    height: 100vh;
+    padding :0;
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+#four img{
+    position: absolute;
+    top:100rem;
+    transform: scale(1.7);
+    left: 10rem;
+}
+#fourRight{
+    position: absolute ;
+    left:100px;
+    margin-left: 400px;
+}
+#rightOne{
+    position: absolute;
+    right: 300px;
+}
+#rightTwo{
+    position: absolute;
+    right: 300px;
+    top: 1600px;
+}
